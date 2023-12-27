@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(/Font\ familys/Roboto-Black.ttf);
+}
+body {
+    font-family: Roboto;
+}
+label, input{
+    display: block;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.side-image, content{
+    display: inline-block;
+}
+.side-image{
+    width: 10%;
+}
+.side-image img{
+    width: 100%;
+    height: auto;
+}
+.content{
+    width: 69%;
+    padding-left: 50px;
+    max-width: 600px;
+}
+.intro{
+    margin-top: 20%;
+    margin-bottom: 20px;
+}
+.password-requirements{
+    width: 100%;
+}
+.password-requirements-list{
+    display: inline-block;
+    margin-left: 19px;
+}
+.sign-up-container{
+    width: 100%;
+    margin-top: 35px;
+}
+.sign-up-button{
+    padding: 15px 50px;
+    background: white;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    opacity: 0.7;
+}
+.comercial-mailing{
+    display: inline-block;
+    width: 400px;
+    margin-left: 35px;
+}
+.comercial-mailing input, .comercial-mailing label{
+    display: inline;
+}
+.register-form-footer{
+    margin-top: 40px;
+}
